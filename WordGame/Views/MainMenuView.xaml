@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="WordGame.Views.MainMenuView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vm="clr-namespace:WordGame.ViewModels"
+             xmlns:local="clr-namespace:WordGame.Helpers"
+             mc:Ignorable="d" d:DesignHeight="450" d:DesignWidth="800" Height="450" Width="800">
+    <Grid>
+        <TextBlock Text="{DynamicResource AppName}"
+                   FontSize="48"
+                   FontWeight="Bold"
+                   Foreground="Yellow"
+                   HorizontalAlignment="Center"
+                   Margin="30">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="1"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="{DynamicResource NewGameButton}" Style="{StaticResource ButtonStyle}" Command="{Binding NewGameCommand}" local:ButtonSoundEffect.IsSoundEnabled="True"/>
+            <Button IsEnabled="False" Content="{DynamicResource LoadGameButton}" Style="{StaticResource ButtonStyle}" Command="{Binding LoadGameCommand}" local:ButtonSoundEffect.IsSoundEnabled="True"/>
+            <Button Content="{DynamicResource SettingsButton}" Style="{StaticResource ButtonStyle}" Command="{Binding SettingsCommand}" local:ButtonSoundEffect.IsSoundEnabled="True"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

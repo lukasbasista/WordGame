@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=System.Runtime">
+    <system:String x:Key="AppName">Wortfußball</system:String>
+    <system:String x:Key="EnglishButton">Englisch</system:String>
+    <system:String x:Key="CzechButton">Tschechisch</system:String>
+    <system:String x:Key="SlovakButton">Slowakisch</system:String>
+    <system:String x:Key="GermanButton">Deutsch</system:String>
+    <system:String x:Key="NewGameButton">Neues Spiel</system:String>
+    <system:String x:Key="LoadGameButton">Spiel laden</system:String>
+    <system:String x:Key="SettingsButton">Einstellungen</system:String>
+    <system:String x:Key="BackToMenuButton">Zurück zum Hauptmenü</system:String>
+    <system:String x:Key="FXVolume">Effektvolumen</system:String>
+    <system:String x:Key="MusicVolume">Musiklautstärke</system:String>
+    <system:String x:Key="GameTime">Spielzeit</system:String>
+    <system:String x:Key="SubmitButton">Senden</system:String>
+    <system:String x:Key="OnePlayerButton">Ein Spieler</system:String>
+    <system:String x:Key="TwoPlayersButton">Zwei Spieler</system:String>
+
+</ResourceDictionary>

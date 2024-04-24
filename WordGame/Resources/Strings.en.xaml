@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=System.Runtime">
+    <system:String x:Key="AppName">WordGame</system:String>
+    <system:String x:Key="EnglishButton">English</system:String>
+    <system:String x:Key="CzechButton">Czech</system:String>
+    <system:String x:Key="SlovakButton">Slovak</system:String>
+    <system:String x:Key="GermanButton">German</system:String>
+    <system:String x:Key="NewGameButton">New Game</system:String>
+    <system:String x:Key="LoadGameButton">Load Game</system:String>
+    <system:String x:Key="SettingsButton">Settings</system:String>
+    <system:String x:Key="BackToMenuButton">Back to main menu</system:String>
+    <system:String x:Key="FXVolume">Effects Volume</system:String>
+    <system:String x:Key="MusicVolume">Music Volume</system:String>
+    <system:String x:Key="GameTime">Game Time</system:String>
+    <system:String x:Key="SubmitButton">Submit</system:String>
+    <system:String x:Key="OnePlayerButton">One Player</system:String>
+    <system:String x:Key="TwoPlayersButton">Two Players</system:String>
+    
+</ResourceDictionary>

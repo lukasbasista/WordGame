@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=System.Runtime">
+    <system:String x:Key="AppName">Slovní fotbal</system:String>
+    <system:String x:Key="EnglishButton">Angličtina</system:String>
+    <system:String x:Key="CzechButton">Čeština</system:String>
+    <system:String x:Key="SlovakButton">Slovenština</system:String>
+    <system:String x:Key="GermanButton">Němčina</system:String>
+    <system:String x:Key="NewGameButton">Nová hra</system:String>
+    <system:String x:Key="LoadGameButton">Načíst hru</system:String>
+    <system:String x:Key="SettingsButton">Nastavení</system:String>
+    <system:String x:Key="BackToMenuButton">Zpět do hlavního menu</system:String>
+    <system:String x:Key="FXVolume">Hlasitost efektů</system:String>
+    <system:String x:Key="MusicVolume">Hlasitost hudby</system:String>
+    <system:String x:Key="GameTime">Čas hry</system:String>
+    <system:String x:Key="SubmitButton">Odeslat</system:String>
+    <system:String x:Key="OnePlayerButton">Jeden hráč</system:String>
+    <system:String x:Key="TwoPlayersButton">Dva hráči</system:String>
+
+</ResourceDictionary>
